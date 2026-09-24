@@ -1,0 +1,25 @@
+{
+  "name": "qvac-fake-product-recall-notice-generator",
+  "version": "1.0.0",
+  "description": "Type a harmless everyday item and an on-device AI writes an absurd fake product recall notice for it, with a deterministic panic meter.",
+  "type": "module",
+  "main": "src/gui.js",
+  "scripts": {
+    "start": "node src/gui.js",
+    "gui": "node src/gui.js"
+  },
+  "keywords": [
+    "qvac",
+    "on-device-ai",
+    "fun",
+    "llm",
+    "offline-ai"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@qvac/sdk": "^0.19.0"
+  },
+  "engines": {
+    "node": ">=22.17"
+  }
+}
